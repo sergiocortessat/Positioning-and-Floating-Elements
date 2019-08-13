@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0px;
+    background-color: #eee; /* light-grey */
+    font-family: 'Lato', 'Helvetica-Neue', calibri, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #333; /* dark-grey */
+  }
