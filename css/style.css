@@ -6,13 +6,13 @@
     background-color: #eee; /* light-grey */
     font-family: 'Lato', 'Helvetica-Neue', calibri, sans-serif;
     font-size: 15px;
-    line-height: 18px;
+    line-height: normal;
     color: #333; /* dark-grey */
   }
   h1 {
     font-size: 3rem;
     font-style: italic;
-    line-height:
+    line-height: normal;
   }
   .bold {
     font-weight: 700;
@@ -85,15 +85,15 @@
   .article-body {
     display: flex;
   }
-  #main-article {
+  .main-article {
       width: 60%;
       margin-left: 20%;
   }
-  #main-article p {
+  .main-article p {
     font-size: 1.6rem;
     line-height: 2.6rem;
   }
-  #side-column {
+  .side-column {
     width: 20%;
   }
   #related-articles {
