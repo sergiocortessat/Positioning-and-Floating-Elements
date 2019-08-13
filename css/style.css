@@ -12,7 +12,13 @@
   h1 {
     font-size: 3rem;
     font-style: italic;
-    line-height: 
+    line-height:
+  }
+  .bold {
+    font-weight: 700;
+  }
+  .uppercase {
+    text-decoration: uppercase;
   }
   .column {
     float: left;
@@ -52,7 +58,7 @@
     color: #000;
     text-decoration: none;
     font-weight: 700;
-    
+
   }
   #logo-container {
       flex: 1;
@@ -76,7 +82,7 @@
   article {
     padding: 26px;
   }
-  #article-body {
+  .article-body {
     display: flex;
   }
   #main-article {
@@ -95,4 +101,10 @@
   }
   #related-articles img {
     width: 100%;
+  }
+  #abstract img {
+    width: 100%;
+  }
+  .card {
+    padding: 12px 8px;
   }
