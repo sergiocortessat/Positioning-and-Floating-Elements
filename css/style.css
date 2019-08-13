@@ -9,3 +9,26 @@
     line-height: 18px;
     color: #333; /* dark-grey */
   }
+  nav {
+      display: flex;
+      background-color: antiquewhite;
+      border-bottom: 1px solid #bebebe;
+  }
+  .main-menu-items {
+      display: inline;
+      padding: 10px;
+  }
+  #img-logo {
+      height: 60px;
+  }
+  #main-menu {
+  }
+  #logo-container {
+      flex: 1;
+      text-align: center;
+  }
+  #user-menu {
+  }
+  #img-hero {
+      width: 100%;
+  }
