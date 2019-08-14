@@ -32,6 +32,9 @@
   .column-4 {
     width: 33.3%;
   }
+  .column-6 {
+    width: 50%;
+  }
   .column-8 {
     width: 66.6%;
   }
@@ -48,9 +51,12 @@
     padding-left: 0px;
   }
   nav {
-      display: flex;
-      background-color: antiquewhite;
-      border-bottom: 1px solid #bebebe;
+    display: flex;
+    background-color: antiquewhite;
+    border-bottom: 1px solid #bebebe;
+    position: fixed;
+    top: 0px;
+    width: 100%;
   }
 
   .main-menu-items {
@@ -58,6 +64,10 @@
       padding: 10px;
   }
   #img-logo {
+      height: 50px;
+  }
+
+  #footer-logo {
       height: 50px;
   }
   #main-menu {
@@ -73,7 +83,7 @@
   #logo-container {
     flex: 1;
     text-align: center;
-  }  
+  }
   #logo-footer {
     flex: 1;
     text-align: left;
@@ -110,6 +120,9 @@
   .side-column {
     width: 20%;
   }
+  .side-column .row {
+    margin-bottom: 15px;
+  }
   #related-articles {
     padding: 26px;
   }
@@ -137,4 +150,15 @@
     font-size: 1.3rem;
     padding: 10px 0px;
     border-top: 1px solid #bebebe;
+  }
+  .thumbnail img {
+    width: 100%;
+  }
+  .description h4 {
+    margin: 0px;
+  }
+  .description a {
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
   }
