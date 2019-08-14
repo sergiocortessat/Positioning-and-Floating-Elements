@@ -4,7 +4,7 @@
   body {
     margin: 0px;
     background-color: #eee; /* light-grey */
-    font-family: 'Lato', 'Helvetica-Neue', calibri, sans-serif;
+    font-family: 'Georgia', Cambria, serif;
     font-size: 15px;
     line-height: normal;
     color: #333; /* dark-grey */
@@ -132,4 +132,9 @@
   }
   .article-date {
     font-size: 0.7rem;
+  }
+  #most-popular li {
+    font-size: 1.3rem;
+    padding: 10px 0px;
+    border-top: 1px solid #bebebe;
   }
