@@ -13,8 +13,20 @@
     font-style: italic;
     line-height: normal;
   }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .align-right {
+    text-align: right;
+  }
   .bold {
     font-weight: 700;
+  }
+  .space-between {
+    -webkit-justify-content: space-between;
   }
   .uppercase {
     text-decoration: uppercase;
@@ -194,4 +206,19 @@
   .photo .caption {
     font-size: 1.2rem;
     color: #666;
+  }
+
+  #read-comments button {
+    background-color: #6288a5;
+    padding: 8px 12px;
+    border: 1px solid #326891;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+
+  #fine-print p {
+    line-height: normal !important;
   }
