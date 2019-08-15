@@ -3,7 +3,6 @@
   }
   body {
     margin: 0px;
-    background-color: #eee; /* light-grey */
     font-family: 'Georgia', Cambria, serif;
     font-size: 15px;
     line-height: normal;
@@ -19,6 +18,10 @@
   }
   .uppercase {
     text-decoration: uppercase;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
   }
   .column {
     float: left;
@@ -46,13 +49,16 @@
   .flex {
     display: flex;
   }
+  .flex-1 {
+    flex: 1;
+  }
   ul {
     list-style-type: none;
     padding-left: 0px;
   }
   nav {
     display: flex;
-    background-color: antiquewhite;
+    background-color: #fff;
     border-bottom: 1px solid #bebebe;
     position: fixed;
     top: 0px;
@@ -88,7 +94,8 @@
     flex: 1;
     text-align: left;
   }
-  #user-menu {
+  #social-icons {
+    margin: 20px 10px;
   }
   #user-menu button {
     background-color: #6288a5;
