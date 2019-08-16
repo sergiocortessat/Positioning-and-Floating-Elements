@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0px;
+    font-family: 'Georgia', Cambria, serif;
+    font-size: 15px;
+    line-height: normal;
+    color: #333; /* dark-grey */
+  }
+  h1 {
+    font-size: 3rem;
+    font-style: italic;
+    line-height: normal;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .align-right {
+    text-align: right;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  .space-between {
+    -webkit-justify-content: space-between;
+  }
+  .uppercase {
+    text-decoration: uppercase;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .column {
+    float: left;
+  }
+  .column-2 {
+    width: 16.66%;
+  }
+  .column-3 {
+    width: 25%;
+  }
+  .column-4 {
+    width: 33.3%;
+  }
+  .column-6 {
+    width: 50%;
+  }
+  .column-8 {
+    width: 66.6%;
+  }
+  .row:after {
+    clear: both;
+    display: table;
+    content: "";
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  nav {
+    display: flex;
+    background-color: #fff;
+    border-bottom: 1px solid #bebebe;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+
+  .main-menu-items {
+      display: inline;
+      padding: 10px;
+  }
+  #img-logo {
+      height: 50px;
+  }
+
+  #footer-logo {
+      height: 50px;
+  }
+  #main-menu {
+    margin-top: 9px;
+    margin-left: 10px;
+  }
+  .main-menu-items a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+
+  }
+  .text-small {
+    font-size: 0.8rem !important;
+  }
+  #logo-container {
+    flex: 1;
+    text-align: center;
+  }
+  #logo-footer {
+    flex: 1;
+    text-align: left;
+  }
+  #social-icons {
+    margin: 20px 10px;
+  }
+  .btn-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+  }
+  #user-menu button {
+    background-color: #6288a5;
+    padding: 8px 12px;
+    border: 1px solid #326891;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+  #img-hero {
+      width: 100%;
+  }
+  article {
+    padding: 26px;
+  }
+  .article-body {
+    display: flex;
+  }
+  .main-article {
+      width: 60%;
+      margin-left: 20%;
+  }
+  .main-article p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+  .side-column {
+    margin-left: 20px;
+    width: 20%;
+  }
+  .side-column .row {
+    margin-bottom: 15px;
+  }
+  #related-articles {
+    padding: 26px;
+  }
+  #related-articles img {
+    width: 100%;
+  }
+  #abstract img {
+    width: 100%;
+  }
+  .card {
+    padding: 12px 8px;
+  }
+  .article-publisher {
+    text-align: right;
+    font-size: 0.7rem;
+  }
+  .article-title a {
+    text-decoration: none;
+    color: black;
+  }
+  .article-date {
+    font-size: 0.7rem;
+  }
+  #most-popular li {
+    font-size: 1.3rem;
+    padding: 10px 0px;
+    border-top: 1px solid #bebebe;
+  }
+  .thumbnail img {
+    width: 100%;
+  }
+  .description h4 {
+    margin: 0px;
+  }
+  .description a {
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+  }
+  .snippet button {
+    background-color: #6288a5;
+    padding: 8px 12px;
+    border: 1px solid #326891;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+  .photo .caption {
+    font-size: 1.2rem;
+    color: #666;
+  }
+
+  #read-comments button {
+    background-color: #6288a5;
+    padding: 8px 12px;
+    border: 1px solid #326891;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+
+  #fine-print p {
+    line-height: normal !important;
+  }
